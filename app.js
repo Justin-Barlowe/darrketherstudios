@@ -21,6 +21,7 @@ app.use('/css', express.static(__dirname + 'public/stylesheets'));
 
 
 app.use('/', indexRouter);
+app.use('/about');
 
 
 // catch 404 and forward to error handler
